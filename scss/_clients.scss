@@ -1,0 +1,106 @@
+.clients {
+  @media all and (max-width: 1023.98px) {
+    text-align: center;
+  }
+  .clients-description__background {
+    display: block;
+    width: 50vw;
+    height: 600px;
+    background-color: #150433;
+    position: absolute;
+    z-index: -10;
+    margin-top: 250px;
+    @media all and (max-width: 1023.98px) {
+      width: 100%;
+    }
+    @media all and (max-width: 575.98px) {
+      display: none;
+    }
+  }
+
+  .clients__pretitle {
+    margin-top: 190px;
+  }
+
+  .clients__title {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 130%;
+  }
+
+  .clients-list {
+    margin-top: 120px;
+    max-width: 400px;
+    width: 100%;
+    @media all and (max-width: 1023.98px) {
+      margin: 120px auto 0;
+    }
+    @media all and (max-width: 575.98px) {
+      margin-top: 0;
+    }
+
+    &__title {
+      font-size: 13px;
+      letter-spacing: 6px;
+      color: #30233d;
+      text-transform: uppercase;
+      margin-bottom: 50px;
+      @media all and (max-width: 1023.98px) {
+        margin-top: 100px;
+      }
+      @media all and (max-width: 575.98px) {
+        margin-top: 50px;
+      }
+    }
+
+    .clients-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+
+      img {
+        margin: 0 auto 50px;
+      }
+    }
+  }
+
+  .clients-inner {
+    display: flex;
+    justify-content: space-between;
+    @media all and (max-width: 1023.98px) {
+      flex-direction: column;
+    }
+
+    .clients-description {
+      position: relative;
+      width: 460px;
+      @media all and (max-width: 1023.98px) {
+        margin: 0 auto;
+      }
+      @media all and (max-width: 575.98px) {
+        display: none;
+      }
+
+      &__title {
+        font-size: 36px;
+        color: #f61067;
+        font-weight: 500;
+        margin-bottom: 20px;
+        margin-top: 200px;
+        @media all and (max-width: 575.98px) {
+          margin-top: 125px;
+        }
+      }
+
+      &__item {
+        color: #fff;
+        line-height: 163%;
+        margin-bottom: 20px;
+        @media all and (max-width: 575.98px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
